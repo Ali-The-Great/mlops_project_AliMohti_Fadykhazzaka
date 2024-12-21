@@ -1,0 +1,35 @@
+[tool.poetry]
+name = "customer-churn-pred"
+version = "0.1.0"
+description = ""
+authors = ["Ali-The-Great <technologyisevil8@gmail.com>"]
+readme = "README.md"
+packages = [{include = "customer_churn_pred", from = "src"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+pandas = "^2.2.3"
+matplotlib = "^3.4"
+seaborn = "^0.13.2"
+scikit-learn = "0.24.2"
+imbalanced-learn = "0.8.0"
+mlflow = "^2.19.0"
+loguru = "^0.7.3"
+pyyaml = "^6.0.2"
+joblib = "^1.4.2"
+uvicorn = "^0.34.0"
+fastapi = "^0.115.6"
+numpy = "^1.21.6"
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.3.4"
+ruff = "^0.8.4"
+mypy = "^1.14.0"
+pytest-cov = "^6.0.0"
+pdoc = "^15.0.1"
+invoke = "^2.2.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

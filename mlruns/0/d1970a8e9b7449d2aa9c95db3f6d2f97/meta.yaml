@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/Chloe/Documents/Projects/Uni/MLOPS/Final/customer_churn_pred/mlruns/0/d1970a8e9b7449d2aa9c95db3f6d2f97/artifacts
+end_time: 1734812887083
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: d1970a8e9b7449d2aa9c95db3f6d2f97
+run_name: amazing-shoat-964
+run_uuid: d1970a8e9b7449d2aa9c95db3f6d2f97
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1734812887029
+status: 4
+tags: []
+user_id: Chloe

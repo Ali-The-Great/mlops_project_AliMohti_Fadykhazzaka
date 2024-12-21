@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/Chloe/Documents/Projects/Uni/MLOPS/Final/customer_churn_pred/mlruns/0/b125486e3c674c13a8caee2596541227/artifacts
+end_time: 1734792279255
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: b125486e3c674c13a8caee2596541227
+run_name: painted-hound-941
+run_uuid: b125486e3c674c13a8caee2596541227
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1734792279085
+status: 4
+tags: []
+user_id: Chloe

@@ -1,0 +1,9 @@
+2024-12-21 16:44:38.309 | INFO     | __main__:train_model:25 -               precision    recall  f1-score   support
+
+          No       0.95      0.80      0.87      1290
+         Yes       0.83      0.95      0.89      1297
+
+    accuracy                           0.88      2587
+   macro avg       0.89      0.88      0.88      2587
+weighted avg       0.89      0.88      0.88      2587
+
