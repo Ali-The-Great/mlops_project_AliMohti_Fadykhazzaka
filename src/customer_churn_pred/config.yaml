@@ -1,2 +1,36 @@
-data_url: "https://github.com/YBIFoundation/Dataset/raw/main/TelecomCustomerChurn.csv"
+data_url: 
+"https://github.com/YBIFoundation/Dataset/raw/main/TelecomCustomerChurn.csv"
 random_state: 2529
+
+model:
+  type: random_forest  # Options: random_forest, logistic_regression, 
+gradient_boosting, svm
+  hyperparameters:
+    # Common Hyperparameters
+    random_state: 42
+    
+    # Random Forest Hyperparameters
+    n_estimators: 100
+    max_depth: 10
+
+    # Logistic Regression Hyperparameters
+    solver: "lbfgs"  # Solver for optimization
+    max_iter: 200    # Maximum number of iterations
+
+    # Gradient Boosting Hyperparameters
+    learning_rate: 0.1
+    n_estimators: 100
+    max_depth: 5
+
+    # SVM Hyperparameters
+    kernel: "rbf"   # Kernel type (linear, rbf, poly)
+    C: 1.0          # Regularization parameter
+
+data:
+  train_path: "data/train.csv"
+  test_path: "data/test.csv"
+
+output:
+  model_path: "models/"
+
+
