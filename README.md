@@ -26,7 +26,7 @@ The project uses the following architecture:
 5. **CI/CD Pipeline**: Implemented using GitHub Actions for automated testing and deployment.
 
 ## Prerequisites
-- Python 3.12
+- Python 3.9
 - Docker
 - Kubernetes
 - Prometheus and Grafana
